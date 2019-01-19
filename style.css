@@ -1,0 +1,102 @@
+body{
+  font-family: serif, Arial;
+  font-size:20px;
+  line-height:1;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+.container1{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+header{
+  background: brown;
+  color:white;
+  padding:10px;
+  min-height: 50px;
+  border-bottom: orange 5px solid;
+}
+
+header a{
+  color:#fff;
+  text-decoration: none;
+}
+
+header ul{
+  margin=0;
+  padding:0;
+}
+
+header li{
+  float: right;
+  display: inline;
+  padding-left: 60px;
+}
+
+header #branding{
+  float:left;
+}
+
+header .Brandname{
+  color: yellow;
+  font-weight: bolder;
+}
+
+/*SHOWCASE*/
+
+#showcase{
+  min-height: 400px;
+  background: url('https://images.wallpaperscraft.com/image/code_lines_programming_130775_1280x720.jpg');
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: orange 20px solid;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+#showcase input{
+  padding: 5px;
+  width: 220px;
+  height: 20px;
+}
+
+#showcase button{
+  border: 0;
+  padding: 5px;
+  background: red;
+  color: white;
+}
+
+/*FEATURES*/
+
+#features{
+  margin-top: 20px;
+}
+
+#features .list1{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#features img{
+  width: 90px;
+  height: 90px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 200px;
+  text-align: center;
+  background: brown;
+  color: white;
+}
